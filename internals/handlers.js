@@ -68,7 +68,7 @@ var getitems = function (req, res) {
         "Content-Type": "text/html"
     });
     mongo.connect(url, function (err, db) {
-        var collection = db.collection('myinventario');
+        var collection = db.collection('inventario');
         collection.find().toArray(function (err, items) {
             console.log(items);
             if (err) throw err;
