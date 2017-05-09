@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    
+    <title>Formulario</title>
+</head>
+<style>
+h1{
+	color:#003
+}
+</style>
+<body>
+<form action="/formulario" method="POST" style="padding-top: 10px; " class="form-horizontal">
+        <div class="form-group"><label class="control-label col-xs-5">
+                <h1> Ingrese los datos del producto</h1><br>
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="inputProducto" class="control-label col-xs-2">
+                   Producto*
+          </label>
+            <div class="col-xs-5">
+                <input class="form-control" type="text" name="producto" id="inputproducto" placeholder="Producto" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputMarca" class="control-label col-xs-2">
+                    Marca*
+          </label>
+            <div class="col-xs-5">
+                <input class="form-control" type="text" name="marca" id="inputMarca" placeholder="Marca" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputModel" class="control-label col-xs-2">
+                    Modelo*
+          </label>
+            <div class="col-xs-5">
+                <input class="form-control" type="text" name="modelo" id="inputModel" placeholder="Modelo" required>
+            </div>
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="inputCantidad" class="control-label col-xs-2">
+                    Cantidad*
+          </label>
+            <div class="col-xs-5">
+                <input class="form-control" type="number" name="cantidad" id="inputCantidad" placeholder="Cantidad" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPresentacion" class="control-label col-xs-2">
+                    Presentacion*
+          </label>
+            <div class="col-xs-5">
+                <input class="form-control" type="text" name="presentacion" id="inputPresentacion" placeholder="Presentacion" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPrecio" class="control-label col-xs-2">
+                    Precio*
+          </label>
+            <div class="col-xs-5">
+                <input class="form-control" type="number" name="precio" id="inputPrecio" placeholder="Precio" required>
+            </div>
+        </div>
+        <div class="col-xs-offset-2 col-xs-10">
+            <input type="submit" class="btn btn-primary" value="ENVIAR">
+        </div>
+</form>
+</body>
+</html>

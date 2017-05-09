@@ -1,0 +1,26 @@
+{
+  "name": "servidor-formulario",
+  "description": "Servidor que recibe datos de un formulario para almacenarlos en una base de datos",
+  "main": "server.js",
+  "authors": [
+    "@Alexitouuu"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "server",
+    "form",
+    "database"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "sweetalert2": "^6.6.2"
+  }
+}
