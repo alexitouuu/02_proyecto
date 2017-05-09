@@ -3,7 +3,7 @@ const staticServer = require('./static-server'),
     mongo = require('mongodb').MongoClient;
 
 
-var url = 'mongodb://calaca:goldo200611@ds133291.mlab.com:33291/myinventario';
+var url = 'mongodb://calaca:1234@ds157247.mlab.com:57247/inventario-1';
 
 var getPostRoot = function (req, res) {
     if (req.method === "POST") {
